@@ -24,6 +24,7 @@ void binary_tree_delete(binary_tree_t *tree)
 		}
 		else
 		{
+			prnt = tmp->parent;
 			free(tmp);
 			tmp = prnt;
 		}
