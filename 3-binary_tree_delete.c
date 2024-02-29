@@ -12,6 +12,7 @@ void binary_tree_delete(binary_tree_t *tree)
 		return;
 	while (tmp != NULL)
 	{
+		printf("%d\n", tmp->n);
 		if (tmp->left != NULL)
 		{
 			prnt = tmp;
